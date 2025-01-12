@@ -36,9 +36,9 @@ FROM funcionarios
 GROUP BY cargo 
 HAVING AVG(salario) > 4500;
 ````
-````sql 
-5. Operadores Lógicos: Combina condições com AND, OR e NOT.
 
+5. Operadores Lógicos: Combina condições com AND, OR e NOT.
+````sql 
 -- Exemplo com AND
 SELECT nome, cargo, salario 
 FROM funcionarios 
@@ -55,9 +55,8 @@ FROM funcionarios
 WHERE NOT cargo = 'Estagiário';
 ````
 
-````sql 
 6. Operadores de Comparação: Exemplos com =, <>, >, <.
-
+````sql 
 -- Exemplo com '='
 SELECT nome, cargo 
 FROM funcionarios 
